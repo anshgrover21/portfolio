@@ -124,7 +124,8 @@
 }
 
 .hero-section-right{  
-  
+    width: 28%;
+    height: 428px;
     position: relative;
     display: flex ;
     flex-direction: column;
@@ -260,8 +261,9 @@
 
 
 .user-image{
- padding: 30px;
-  
+ padding: 41px 0px;
+ width: 422px;
+ height: 526px;
  border: #343d68;
  box-shadow: #5b5e69;
  transition :all 1s ;
@@ -269,6 +271,12 @@
  animation-direction: alternate;
 }
 
+.user-image img {
+    position: absolute;
+    width: 98%;
+    height: 81%;
+    left: 6px;
+}
 @keyframes scaleImage {
  
     0%{
